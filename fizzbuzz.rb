@@ -1,3 +1,3 @@
 def fizzbuzz input
-  1
+  input
 end
