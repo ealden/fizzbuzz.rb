@@ -12,4 +12,10 @@ describe 'FizzBuzz' do
       expect(fizzbuzz(2)).to eq 2
     end
   end
+
+  context 'with input 3' do
+    it 'should return fizz' do
+      expect(fizzbuzz(3)).to eq 'fizz'
+    end
+  end
 end
