@@ -13,6 +13,12 @@ describe 'FizzBuzz' do
     end
   end
 
+  context 'with input divisible by 3 and 5' do
+    it "should return 'fizzbuzz'" do
+      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+  end
+
   context 'with input not divisible by 3 or 5' do
     it 'should return the input' do
       expect(fizzbuzz(1)).to eq 1
