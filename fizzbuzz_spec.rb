@@ -2,6 +2,6 @@ require_relative 'fizzbuzz'
 
 describe 'FizzBuzz' do
   it 'runs' do
-    expect(fizzbuzz).to eq 1
+    expect(fizzbuzz(1)).to eq 1
   end
 end
