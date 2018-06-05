@@ -14,6 +14,8 @@ describe 'FizzBuzz' do
   end
 
   context 'with input not divisible by 3 or 5' do
-    it { expect(fizzbuzz(1)).to eq 1 }
+    it 'should eq the input' do
+      expect(fizzbuzz(1)).to eq 1
+    end
   end
 end
